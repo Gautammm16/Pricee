@@ -1,0 +1,552 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang16393\deflangfe16393\themelang16393\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f42\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}
+{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhimajor\f31502\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria;}{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f180\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\f181\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\f183\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f184\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f185\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f186\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f187\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f188\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f550\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\f551\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f553\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f554\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f555\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}
+{\f556\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\f557\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f558\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\f600\fbidi \fswiss\fcharset238\fprq2 Arial Black CE;}
+{\f601\fbidi \fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f603\fbidi \fswiss\fcharset161\fprq2 Arial Black Greek;}{\f604\fbidi \fswiss\fcharset162\fprq2 Arial Black Tur;}{\f607\fbidi \fswiss\fcharset186\fprq2 Arial Black Baltic;}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31528\fbidi \froman\fcharset238\fprq2 Cambria CE;}{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}
+{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur;}{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}
+{\fhimajor\f31536\fbidi \froman\fcharset163\fprq2 Cambria (Vietnamese);}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}
+{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}
+{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}
+{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa200\sl276\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{
+\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang16393\langfe16393\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp16393\langfenp16393 
+\snext0 \sqformat \spriority0 \styrsid15471332 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang16393\langfe16393\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp16393\langfenp16393 
+\snext11 \ssemihidden \sunhideused Normal Table;}}{\*\listtable{\list\listtemplateid-591222914\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}
+{\listname ;}\listid-2}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 }}\ls1}}{\*\pgptbl {\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}}{\*\rsidtbl \rsid2914683\rsid6162354\rsid7280974\rsid10830796\rsid12395586\rsid15471332
+\rsid16254631}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator Abc}{\creatim\yr2023\mo2\dy21\hr12\min19}{\revtim\yr2023\mo2\dy21\hr19\min57}{\version2}
+{\edmins317}{\nofpages10}{\nofwords2422}{\nofchars13806}{\nofcharsws16196}{\vern49247}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale149\rsidroot10830796 \nouicompat \fet0{\*\wgrffmtfilter 2450}\nofeaturethrottle1\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang16393\langfe16393\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp16393\langfenp16393 {\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par \hich\af42\dbch\af31505\loch\f42 - User Management
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid10830796 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid10830796 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid10830796 \hich\af37\dbch\af31505\loch\f37 1. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af37\dbch\af31505\loch\f37 User Profiles:
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 View user profiles: Admins can view the profiles of individual users, including their profile information, activity, and settings.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Edit user profiles: Admins can edit user profile information, such as name, username, profile picture, and bio.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Delete user profiles: Admins can delete user accounts entirely, either at the user's request or for policy violations.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 User roles and permis\hich\af37\dbch\af31505\loch\f37 
+sions: Admins can assign roles and permissions to different types of users, controlling what actions they can take on the platform.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 2. Authentication and Verification:
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 Two-factor authentication: Admins can require users to use two-factor authentication\hich\af37\dbch\af31505\loch\f37  to increase security.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Email verification: Admins can require users to verify their email address to confirm their identity.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+User identity verification: Admins can implement identity verification procedures to ensure that users are who they say they ar\hich\af37\dbch\af31505\loch\f37 e.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 3. User Reporting:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+User reports: Admins can receive and manage reports from users about issues on the platform, such as inappropriate content, harassment, or other rule violations.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Reporting system management: Admins can manage the reporting syste
+\hich\af37\dbch\af31505\loch\f37 m, including setting rules for what types of content or behavior can be reported, and how reports are processed.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 4. User Activity Monitoring:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+User activity logs: Admins can view logs of user activity, including what actions they've taken and when.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Us\hich\af37\dbch\af31505\loch\f37 
+er behavior tracking: Admins can track user behavior on the platform to detect suspicious or malicious activity, such as spamming, phishing, or bot activity.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 5. User Support:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 User support tickets: Admins can receive and manage support tickets from user
+\hich\af37\dbch\af31505\loch\f37 s who are experiencing problems with the platform.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Help center management: Admins can manage the help center, including creating and editing articles and FAQs to help users find answers to common questions.
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par }{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af42\dbch\af31505\loch\f42 - Authentication and Verification}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid10830796 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af37\dbch\af31505\loch\f37 1. Two-factor authentication:}{
+\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Enable/disable two-factor authentication: Admins can control whether two-factor authentication is required for all users, or just for certain types of users (e.g. high-risk users).
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Configure two-factor authentication setti\hich\af37\dbch\af31505\loch\f37 
+ngs: Admins can configure the settings for two-factor authentication, such as which methods are supported (e.g. SMS, app-based), the frequency of prompts, and the requirements for backup codes.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 2. Email verification:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Enable/disable email verification: \hich\af37\dbch\af31505\loch\f37 
+Admins can control whether users are required to verify their email addresses to use the platform.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Configure email verification settings: Admins can configure the settings for email verification, such as the frequency of reminders, the format of verifica\hich\af37\dbch\af31505\loch\f37 tion emails, and the requirements for email domains.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 3. User identity verification:
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 Enable/disable user identity verification: Admins can require users to verify their identity using various methods, such as ID verification, facial recognition, or vide\hich\af37\dbch\af31505\loch\f37 o interviews.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Configure user identity verification settings: Admins can configure the settings for user identity verification, such as the requirements for different levels of verification (e.g. basic, intermediate, advanced), the frequency of verificati
+\hich\af37\dbch\af31505\loch\f37 on prompts, and the criteria for approving or rejecting verification requests.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 4. Password policies:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Password requirements: Admins can set requirements for user passwords, such as minimum length, complexity, and expiration.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Password reset management: Admins can manage the process for resetting user passwords, such as verifying user identity, sending reset emails, and logging reset attempts.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 5. User bans and suspensions:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Ban/suspend users: Admins can ban or suspend users w
+\hich\af37\dbch\af31505\loch\f37 ho violate platform policies, such as by posting inappropriate content or engaging in abusive behavior.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Appeal management: Admins can manage the process for users to appeal bans or suspensions, including reviewing evidence and deciding whether to reinsta\hich\af37\dbch\af31505\loch\f37 te the user.
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par }{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af42\dbch\af31505\loch\f42 - User reporting}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid10830796 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af37\dbch\af31505\loch\f37 1. Review reported content:}{
+\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+View detailed information about the reported content, such as the date it was posted, the user who posted it, and the reason for the report
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Sort and filter reported content based on various 
+\hich\af37\dbch\af31505\loch\f37 criteria, such as the severity of the violation or the number of reports received
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Take different types of actions on reported content, such as deleting it, hiding it from other users, or adding a warning label to it
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Set up automatic flagging systems that alert admins when certain types of content are reported multiple times
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 2. Manage user complaints:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Have a centralized inbox where all user complaints are stored, organized by the date they were received or the user\hich\af37\dbch\af31505\loch\f37  who made the complaint
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Respond to user complaints directly from the admin panel, either by sending a message to the user or taking action to address the issue
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Set up automated responses or templates that can be used to quickly reply to common types of\hich\af37\dbch\af31505\loch\f37  user complaints
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Monitor the resolution of user complaints and track how long it takes to resolve them
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 3. Track user behavior:
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 Generate reports or visualizations that show trends in user behavior over time, such as the number of reports received per \hich\af37\dbch\af31505\loch\f37 day or the types of violations that are most commonly reported
+
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use predictive analytics to identify users who are likely to engage in inappropriate behavior before they do so
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Set up alerts or notifications that inform admins when certain types of user 
+\hich\af37\dbch\af31505\loch\f37 behavior occur, such as when a user receives a high number of reports in a short period of time
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 Block or mute users:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Create different types of blocks or mutes that can be applied to users depending on the severity or frequency of their violations, such\hich\af37\dbch\af31505\loch\f37  as a temporary block or a permanent ban
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Keep a record of all users who have been blocked or muted, along with the reasons for the action and the duration of the block/mute
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Allow users to appeal their block or mute, either directly to the admin who imp
+\hich\af37\dbch\af31505\loch\f37 osed the action or through a separate appeals process
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Provide admins with the ability to monitor blocked or muted users to ensure they are not attempting to circumvent the block/mute or engage in other prohibited behavior
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 5. Manage user feedback:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Agg\hich\af37\dbch\af31505\loch\f37 
+regate user feedback into a centralized dashboard that provides an overview of user sentiment and satisfaction with the platform
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Allow users to provide feedback in a variety of formats, such as free-form text, ratings, or surveys
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Categorize feedback by\hich\af37\dbch\af31505\loch\f37 
+ topic or theme, such as user interface design, content policies, or customer support
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use natural language processing or sentiment analysis to automatically categorize and prioritize user feedback based on its content and tone.
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par }{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af42\dbch\af31505\loch\f42 - Content Management }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid10830796 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af37\dbch\af31505\loch\f37 1. Content moderation:}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use machine learning algorithms or other AI-powered tools to automatically detect and flag inappropriate or harmful content
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Set up different levels of filtering or blocking, based on the severity or type of the violation, such as\hich\af37\dbch\af31505\loch\f37  a temporary block, permanent block, or shadowban
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Allow users to appeal content moderation decisions, either directly to the admin who imposed the action or through a separate appeals process
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Track the effectiveness of content moderation efforts over t
+\hich\af37\dbch\af31505\loch\f37 ime, such as the number of violations detected and blocked, or the number of appeals that were successful
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 2. Approval workflow:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Create different levels of approval workflows, based on the type of content or the user who submitted it, such as a single-s\hich\af37\dbch\af31505\loch\f37 tage approval process or a multi-stage review process
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Provide detailed feedback to users whose content is rejected or flagged for review, including the reasons for the rejection and suggestions for how to improve it
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Allow users to track the status of t\hich\af37\dbch\af31505\loch\f37 
+heir content submissions and receive notifications when they are approved or rejected
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Monitor the performance of the approval workflow process and make adjustments as needed to improve efficiency and accuracy
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 3. Hashtag management:
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 Monitor the use of\hich\af37\dbch\af31505\loch\f37  hashtags on the platform and ensure they are being used appropriately and in compliance with community guidelines
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Provide detailed analytics on hashtag performance, such as the number of posts associated with each hashtag, the engagement rate of posts w\hich\af37\dbch\af31505\loch\f37 ith each hashtag, or the demographics of users who are using each hashtag
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Create rules or filters that automatically block or remove posts that use certain hashtags or combinations of hashtags
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Collaborate with influencers or other power users to create
+\hich\af37\dbch\af31505\loch\f37  and promote new hashtags that align with the platform's values and goals
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 4. Comment moderation:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use machine learning algorithms or other AI-powered tools to automatically detect and flag inappropriate or harmful comments
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Create different levels of m\hich\af37\dbch\af31505\loch\f37 
+oderation, such as a single admin manually reviewing all comments, or using an automated system to filter out obvious violations and only flagging more nuanced cases for manual review
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Provide users with clear guidelines on what types of comments are not 
+\hich\af37\dbch\af31505\loch\f37 allowed and what the consequences are for violating the rules
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Monitor the performance of comment moderation efforts and make adjustments as needed to improve accuracy and efficiency
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 5. Content reporting:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use machine learning algorithms or other AI-powered tools to automatically detect and flag inappropriate or harmful content that has been reported by users
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Create different levels of content reporting, such as allowing users to flag content for review or\hich\af37\dbch\af31505\loch\f37  requiring users to provide detailed explanations and evidence of why the content violates community guidelines
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Provide users with clear feedback on the outcome of their content reports, including whether the content was removed or what other actions wer\hich\af37\dbch\af31505\loch\f37 e taken
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Monitor the performance of content reporting efforts and make adjustments as needed to improve efficiency and accuracy
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 6. Content distribution:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use machine learning algorithms or other AI-powered tools to optimize content distribution on the \hich\af37\dbch\af31505\loch\f37 platform, such as by recommending related content or adjusting the order of posts in user feeds
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Test different content distribution strategies and track the performance of each strategy in terms of engagement, user satisfaction, and other metrics
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Work \hich\af37\dbch\af31505\loch\f37 
+with influencers or other power users to promote certain posts or types of content that align with the platform's goals and values
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Use A/B testing or other techniques to compare the performance of different content distribution strategies and make data-d\hich\af37\dbch\af31505\loch\f37 riven decisions about which strategies to use in the future.
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par }{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af42\dbch\af31505\loch\f42 - Analytics and Reporting
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid10830796 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af37\dbch\af31505\loch\f37 1. User Engagement Metrics:}{
+\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Likes: The number of likes on each post, including a breakdown of likes by day, week, or month.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Comments: The number of comments on each post, including a breakdown of comments by day, week, or month.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Shares: The number of times each post was shared, including a breakdown of shares by day, week, or month.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Views: The number of views on each post, \hich\af37\dbch\af31505\loch\f37 
+including a breakdown of views by day, week, or month.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Impressions: The number of times each post was shown to users, including a breakdown of impressions by day, week, or month.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 2. Audience Demographics:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Age: The age range of the users who viewed or\hich\af37\dbch\af31505\loch\f37 
+ engaged with your content.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Gender: The gender of the users who viewed or engaged with your content.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Location: The geographic location of the users who viewed or engaged with your content.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Language: The primary language of the users who vie
+\hich\af37\dbch\af31505\loch\f37 wed or engaged with your content.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Interests: The interests of the users who viewed or engaged with your content.
+
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 3. Hashtag Performance:
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 The number of times a hashtag was used on your content, including a breakdown by day, week, or month.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 The numbe\hich\af37\dbch\af31505\loch\f37 
+r of views or impressions generated by each hashtag.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 The engagement rate (likes, comments, shares) for posts containing each hashtag.
+
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 4. Content Performance:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Content types: The performance of different content types (e.g., images, videos, stories).
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Time of day: The best times to post content for maximum engagement.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Day of week: The best days to post content for maximum engagement.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Location: The best locations to target for maximum engagement.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 5. Data Visualization:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Charts and graphs: Visual \hich\af37\dbch\af31505\loch\f37 
+representations of engagement, demographic, and performance data.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Heat maps: A visual representation of engagement data that shows which parts of an image or video are most engaging.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Comparisons: Side-by-side comparisons of different metrics to help id
+\hich\af37\dbch\af31505\loch\f37 entify trends and opportunities for improvement.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\hich\af37\dbch\af31505\loch\f37 6. Reports and Dashboards:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 
+Customizable reports: Reports that can be customized to include specific metrics and date ranges.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af37\dbch\af31505\loch\f37 Automated reports: Reports that can be automatically generated and sent to s
+\hich\af37\dbch\af31505\loch\f37 takeholders on a regular basis.
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0
+\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid10830796 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 \hich\af37\dbch\af31505\loch\f37 
+Executive dashboard: A high-level view of key performance indicators (KPIs) for executives and other stakeholders.
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\pararsid6162354 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par }{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af42\dbch\af31505\loch\f42 - }{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid6162354\charrsid6162354 
+\hich\af42\dbch\af31505\loch\f42 Ad management}{\rtlch\fcs1 \ab\af42 \ltrch\fcs0 \b\f42\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid6162354 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 1. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Campaign Creation}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 :}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Budget Management: Set, adjust and track \hich\af37\dbch\af31505\loch\f37 the budget of each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Target Audience Selection: Choose the demographic, geographic and interest-based targeting options for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Placement: Decide where the ad will appear, such as in-feed, stories, explore, etc.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Formats: Select \hich\af37\dbch\af31505\loch\f37 the type of ad format, such as image, video, carousel, etc.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Ad Scheduling: Schedule when the ads will run, such as specific times, days, or continuously.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par }\pard \ltrpar\ql \li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid6162354 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 2. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Performance Analysis:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Conversion Tracking: Track the number of conversions generated from each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Cost per Action: Monitor the cost per action, such as cost per click (CPC) or cost per impression (CPM), for each ad campaign.}{\rtlch\fcs1 \af37 
+\ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Engagement Rate: Measure the engagement rate \hich\af37\dbch\af31505\loch\f37 for each ad campaign based on likes, comments, shares, etc.}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Click-Through Rate (CTR): Track the number of clicks and click-through rate for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Return on Ad Spend (ROAS): Analyze the return on ad spend for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par }\pard \ltrpar\ql \li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid6162354 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 3. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Targeting:}{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Demographic Targeting: Target ads based on user demographics such as age, gender, education, occupation\hich\af37\dbch\af31505\loch\f37 , etc.}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Interest-Based Targeting: Target ads based on user interests and behaviors, such as hobbies, shopping habits, etc.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Geographic Targeting: Target ads to users in specific geographic locations, such as countries, states, cities, etc.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Device Targeting: Tar\hich\af37\dbch\af31505\loch\f37 get ads to users based on the device they are using, such as smartphones, tablets, desktops, etc.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Lookalike Targeting: Target ads to users who have similar characteristics to your existing customers.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par }\pard \ltrpar\ql \li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid6162354 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 4. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Creative Optimization:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Image and Video Editing: Edit images and videos for ad creatives directly in the admin panel.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+A/B Testing: Test different ad creatives to determine which performs best.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Copy Writing: Create a\hich\af37\dbch\af31505\loch\f37 nd edit ad copy for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Call to Action (CTA) Optimization: Optimize the CTA for each ad campaign to drive more conversions.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Ad Preview: Preview how the ad creative will look on different devices and placements.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par }\pard \ltrpar\ql \li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid6162354 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 5. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Ad Budget \hich\af37\dbch\af31505\loch\f37 Management:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Budget Allocation: Allocate budget to different a\hich\af37\dbch\af31505\loch\f37 d campaigns based on their performance.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 Budget Optimization: Optimize ad spend to ensure maximum ROI.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Bid Optimization: Optimize bids to get the best placement and performance for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Budget Forecasting: Forecast the budget required to achiev\hich\af37\dbch\af31505\loch\f37 e the desired results for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 
+Automated Budget Management: Use automated tools to manage and adjust ad budgets based on performance.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par }\pard \ltrpar\ql \li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid7280974 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid6162354 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid7280974 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 \hich\af37\dbch\af31505\loch\f37 6. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid7280974\charrsid7280974 \hich\af37\dbch\af31505\loch\f37 A/B Testing:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Ad Creative Testing: Test different ad creatives to determine which performs best.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \hich\af37\dbch\af31505\loch\f37 Ad Targeting Testing: Test different targeting options to determine which performs best.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Ad Placement Testing: Test different ad placements to determine which performs best.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Ad Format Testing: Test different ad formats to determine which performs best.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Aut\hich\af37\dbch\af31505\loch\f37 omated Testing: Use automated tools to test different variables and optimize ad performance.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \ab\af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault{\*\pn 
+\pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 \hich\af37\dbch\af31505\loch\f37 6. }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 
+\b\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \hich\af37\dbch\af31505\loch\f37 Ad Reporting:}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \hich\af37\dbch\af31505\loch\f37 Campaign Performance Reporting: Generate reports on the performance of each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \hich\af37\dbch\af31505\loch\f37 ROI Reporting: Generate reports on the return on ad spend (RO\hich\af37\dbch\af31505\loch\f37 AS) for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Ad Conversion Reporting: Generate reports on the number of conversions generated by each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Ad Engagement Reporting: Generate reports on the engagement rate for each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par {\pntext\pard\plain\ltrpar \rtlch\fcs1 \af37\afs22 \ltrch\fcs0 \f3\fs22\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\sa200\sl276\slmult1
+\nowidctlpar\wrapdefault{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}\faauto\ls1\rin0\lin720\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332\charrsid15471332 
+\hich\af37\dbch\af31505\loch\f37 Ad Audience Reporting: Generate reports o\hich\af37\dbch\af31505\loch\f37 n the demographics, interests, and behaviors of users who engaged with each ad campaign.}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid15471332 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid15471332 
+\par }\pard \ltrpar\qc \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid2914683 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid6162354 
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid10830796 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid10830796 
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid10830796 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid10830796 
+\par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\cf1\lang9\langfe16393\langnp9\insrsid12395586 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b03041400060008000000210030dd4329a8060000a41b0000160000007468656d652f7468656d652f
+7468656d65312e786d6cec594f6fdb3614bf0fd87720746f6327761a07758ad8b19b2d4d1bc46e871e698996d850a240d2497d1bdae38001c3ba618715d86d87
+615b8116d8a5fb34d93a6c1dd0afb0475292c5585e9236d88aad3e2412f9e3fbff1e1fa9abd7eec70c1d1221294fda5efd72cd4324f1794093b0eddd1ef62fad
+79482a9c0498f184b4bd2991deb58df7dfbb8ad755446282607d22d771db8b944ad79796a40fc3585ee62949606ecc458c15bc8a702910f808e8c66c69b9565b
+5d8a314d3c94e018c8de1a8fa94fd05093f43672e23d06af89927ac06762a049136785c10607758d9053d965021d62d6f6804fc08f86e4bef210c352c144dbab
+999fb7b4717509af678b985ab0b6b4ae6f7ed9ba6c4170b06c788a705430adf71bad2b5b057d03606a1ed7ebf5babd7a41cf00b0ef83a6569632cd467faddec9
+699640f6719e76b7d6ac355c7c89feca9cccad4ea7d36c65b258a206641f1b73f8b5da6a6373d9c11b90c537e7f08dce66b7bbeae00dc8e257e7f0fd2badd586
+8b37a088d1e4600ead1ddaef67d40bc898b3ed4af81ac0d76a197c86826828a24bb318f3442d8ab518dfe3a20f000d6458d104a9694ac6d88728eee2782428d6
+0cf03ac1a5193be4cbb921cd0b495fd054b5bd0f530c1931a3f7eaf9f7af9e3f45c70f9e1d3ff8e9f8e1c3e3073f5a42ceaa6d9c84e5552fbffdeccfc71fa33f
+9e7ef3f2d117d57859c6fffac327bffcfc793510d26726ce8b2f9ffcf6ecc98baf3efdfdbb4715f04d814765f890c644a29be408edf3181433567125272371be
+15c308d3f28acd249438c19a4b05fd9e8a1cf4cd296699771c393ac4b5e01d01e5a30a787d72cf1178108989a2159c77a2d801ee72ce3a5c545a6147f32a9979
+3849c26ae66252c6ed637c58c5bb8b13c7bfbd490a75330f4b47f16e441c31f7184e140e494214d273fc80900aedee52ead87597fa824b3e56e82e451d4c2b4d
+32a423279a668bb6690c7e9956e90cfe766cb37b077538abd27a8b1cba48c80acc2a841f12e698f13a9e281c57911ce298950d7e03aba84ac8c154f8655c4f2a
+f074481847bd804859b5e696007d4b4edfc150b12addbecba6b18b148a1e54d1bc81392f23b7f84137c2715a851dd0242a633f900710a218ed715505dfe56e86
+e877f0034e16bafb0e258ebb4faf06b769e888340b103d331115bebc4eb813bf83291b63624a0d1475a756c734f9bbc2cd28546ecbe1e20a3794ca175f3fae90
+fb6d2dd99bb07b55e5ccf68942bd0877b23c77b908e8db5f9db7f024d9239010f35bd4bbe2fcae387bfff9e2bc289f2fbe24cfaa301468dd8bd846dbb4ddf1c2
+ae7b4c191ba8292337a469bc25ec3d411f06f53a73e224c5292c8de0516732307070a1c0660d125c7d44553488700a4d7bddd3444299910e254ab984c3a219ae
+a4adf1d0f82b7bd46cea4388ad1c12ab5d1ed8e1153d9c9f350a3246aad01c6873462b9ac05999ad5cc988826eafc3acae853a33b7ba11cd1445875ba1b236b1
+399483c90bd560b0b0263435085a21b0f22a9cf9356b38ec6046026d77eba3dc2dc60b17e92219e180643ed27acffba86e9c94c7ca9c225a0f1b0cfae0788ad5
+4adc5a9aec1b703b8b93caec1a0bd8e5de7b132fe5113cf312503b998e2c2927274bd051db6b35979b1ef271daf6c6704e86c73805af4bdd476216c26593af84
+0dfb5393d964f9cc9bad5c313709ea70f561ed3ea7b053075221d51696910d0d339585004b34272bff7213cc7a510a5454a3b349b1b206c1f0af490176745d4b
+c663e2abb2b34b23da76f6352ba57ca2881844c1111ab189d8c7e07e1daaa04f40255c77988aa05fe06e4e5bdb4cb9c5394bbaf28d98c1d971ccd20867e556a7
+689ec9166e0a522183792b8907ba55ca6e943bbf2a26e52f48957218ffcf54d1fb09dc3eac04da033e5c0d0b8c74a6b43d2e54c4a10aa511f5fb021a07533b20
+5ae07e17a621a8e082dafc17e450ffb739676998b48643a4daa7211214f623150942f6a02c99e83b85583ddbbb2c4996113211551257a656ec1139246ca86be0
+aadedb3d1441a89b6a929501833b197fee7b9641a3503739e57c732a59b1f7da1cf8a73b1f9bcca0945b874d4393dbbf10b1680f66bbaa5d6f96e77b6f59113d
+316bb31a795600b3d256d0cad2fe354538e7566b2bd69cc6cbcd5c38f0e2bcc63058344429dc2121fd07f63f2a7c66bf76e80d75c8f7a1b622f878a18941d840
+545fb28d07d205d20e8ea071b283369834296bdaac75d256cb37eb0bee740bbe278cad253b8bbfcf69eca23973d939b97891c6ce2cecd8da8e2d343578f6648a
+c2d0383fc818c798cf64e52f597c740f1cbd05df0c264c49134cf09d4a60e8a107260f20f92d47b374e32f000000ffff0300504b030414000600080000002100
+0dd1909fb60000001b010000270000007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f7
+8277086f6fd3ba109126dd88d0add40384e4350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89
+d93b64b060828e6f37ed1567914b284d262452282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd500
+1996509affb3fd381a89672f1f165dfe514173d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0f
+bfff0000001c0200001300000000000000000000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6
+a7e7c0000000360100000b00000000000000000000000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a
+0000001c00000000000000000000000000190200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d00140006000800000021
+0030dd4329a8060000a41b00001600000000000000000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d001400060008
+00000021000dd1909fb60000001b0100002700000000000000000000000000b20900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000ad0a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax267\lsdlockeddef0\lsdsemihiddendef1\lsdunhideuseddef1\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;
+\lsdpriority39 \lsdlocked0 toc 1;\lsdpriority39 \lsdlocked0 toc 2;\lsdpriority39 \lsdlocked0 toc 3;\lsdpriority39 \lsdlocked0 toc 4;\lsdpriority39 \lsdlocked0 toc 5;\lsdpriority39 \lsdlocked0 toc 6;\lsdpriority39 \lsdlocked0 toc 7;
+\lsdpriority39 \lsdlocked0 toc 8;\lsdpriority39 \lsdlocked0 toc 9;\lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdpriority1 \lsdlocked0 Default Paragraph Font;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority59 \lsdlocked0 Table Grid;\lsdunhideused0 \lsdlocked0 Placeholder Text;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdunhideused0 \lsdlocked0 Revision;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdpriority37 \lsdlocked0 Bibliography;\lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e50000000000000000000000007023
+4cae0046d901feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
