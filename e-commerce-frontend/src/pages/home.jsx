@@ -59,10 +59,12 @@ const Home = () => {
     }
   };
 
+  
+  
   const [product,setProduct] = useState(null)
 
-
-  const getproduct=  async()=>{
+  // console.log(window.path)
+  const getproduct =  async(req,res)=>{
 
     const fetchproduct = await fetch(`${window.path}/new-release`,{
       method:"get"
@@ -71,7 +73,7 @@ const Home = () => {
     if(resp.status == 1){
       setProduct(resp.result)
     }else{
-      setProduct(null)
+      setProduct("error",null)
     }
   }
   

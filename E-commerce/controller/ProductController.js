@@ -1,11 +1,14 @@
 
-    // const Main = require("./../../E-commerc-admin/src/containers/Main")
-    // import Main from './../../E-commerc-admin/src/containers/Main';
-    const axios  = require('axios');
-    const Product = require("../model/product.js");
-    const  cheerio  =  require('cheerio');
-    const fs = require('fs')
-    const puppeteer = require("puppeteer")
+const axios  = require('axios');
+const  cheerio  =  require('cheerio');
+const Product = require("../model/product");
+// const Service = require("../model/service");
+// const Service_booking = require("../model/service_booking");
+const User = require("../model/user");
+const fs = require('fs')
+const jwt = require('jsonwebtoken')
+require('dotenv').config()
+const puppeteer = require("puppeteer")
 
     const product_category = require('../model/product_category.js');
     const product_sub_category = require('../model/product_sub_category.js');
@@ -16,16 +19,17 @@
         try {
             const {data:html} = await axios.get(productURL,{
                 headers:{
-                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.110 Safari/537.36'
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
                 }
             });
             return html;
         } catch (error) {
             // console.log("something went wrong")
-            console.log(error.message);
+            console.log("the error is here ",error.message);
         return null;
         }
     }
+
 
 
 
@@ -115,6 +119,7 @@
                 // const image = shelf.find('a div img').attr().src
             });
             if(Object.keys(Cateogry).length>0){
+           
                 return res.json({status:1,message:"Data Found",result:Cateogry})
             }else{
                 return res.json({status:0,message:"Data Not Found",})
@@ -206,9 +211,9 @@
     }
 
     exports.getProduct = async(req,res) =>{
+       const product = await getHTML(`https://pricee.com/?${req.params.cat}${req.params.subcat ? `/${req.params.subcat}` : '' }?sort=price&order=asc&is_ajax=2&v=1&size=30&page=${req.params.page}`)
 
-    const product = await getHTML(`https://pricee.com/${req.params.cat}${req.params.subcat ? `/${req.params.subcat}` : '' }?sort=price&order=asc&is_ajax=2&v=1&size=30&page=${req.params.page}`)
-    // console.log(req.params.cat);
+    // console.log(product)
     const subcategory = req.params.subcat ? req.params.subcat.split("-products")[0]   : req.params.cat.split("-products")[0]
     const findingSubCat = await product_sub_category.find({name : subcategory.replace("-"," ")})
     var ourProduct = []
