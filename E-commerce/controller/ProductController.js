@@ -80,7 +80,6 @@ async function getAmazonModel(html) {
 //     }
 // };
 
-
 exports.getproduct = async (req, res) => {
     try {
         const flipkartHTML = await getHTML("https://pricee.com/");
@@ -92,19 +91,20 @@ exports.getproduct = async (req, res) => {
             $('div._slideX.slazy > div._pdwg').each((index, element) => {
                 const product = {};
                 
-                product.image = $(element).find('._thmb img').attr('data-original') || $(element).find('._thmb img').attr('src');
-                product.name = $(element).find('._pdscn ._hd._lc').text();
-                product.rating = $(element).find('._prate .good').text();
-                product.price = $(element).find('._prc span').first().text();
-                product.discount = $(element).find('._ofrtxt').text();
-                product.link = $(element).find('a').attr('href');
+                product.image = $(element).find('._thmb img').attr('data-original') || $(element).find('._thmb img').attr('src') || 'default-image-url';
+                product.name = $(element).find('._pdscn ._hd._lc').text().trim() || 'No Name';
+                product.rating = $(element).find('._prate .good').text().trim() || 'No Rating';
+                product.price = $(element).find('._prc span').first().text().trim() || 'No Price';
+                product.discount = $(element).find('._ofrtxt').text().trim() || 'No Discount';
+                product.link = $(element).find('a').attr('href') || '#';
 
-                console.log(product.name);
+                
                 flipkartProducts.push(product);
+                console.log(flipkartProducts);
             });
         }
+
         res.json({
-            
             status: "success",
             data: flipkartProducts
         });
