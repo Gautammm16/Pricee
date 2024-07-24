@@ -49,7 +49,7 @@ const UserProfile = multer.diskStorage({
     }
   });
 
-router.get("/new-release",ProductController.getproduct)
+router.get("/new-release",ProductController.getpopularproduct)
 router.post("/login",form,userController.LoginUser)
 router.post("/loginwithgoogle",form,userController.loginWithGoogle)
 router.get("/getpopularcat",ProductController.getPopularCat)

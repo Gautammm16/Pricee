@@ -67,9 +67,9 @@ const Home = () => {
     });
     const resp = await fetchproduct.json();
     if (resp.status == 1) {
-      setProduct(resp.result);
+      setProduct(resp.res);
     } else {
-      setProduct("error", null);
+      setProduct([]);
     }
   };
 
@@ -80,7 +80,7 @@ const Home = () => {
     });
     const resp = await fetchCat.json();
     if (resp.status == 1) {
-      setPopularCategory(resp.result);
+      setPopularCategory(resp.res);
     }
   };
   useEffect(() => {
@@ -137,7 +137,6 @@ const Home = () => {
     <>
       {product != null ? (
         <>
-        console.log(product);
           <div className="w-full flex justify-center">
             <div className="container">
               <div className="absolute right-52 top-10   rounded-full ">

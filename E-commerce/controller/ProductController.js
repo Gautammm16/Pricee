@@ -80,7 +80,7 @@ async function getAmazonModel(html) {
 //     }
 // };
 
-exports.getproduct = async (req, res) => {
+exports.getpopularproduct = async (req, res) => {
     try {
         const flipkartHTML = await getHTML("https://pricee.com/");
         const flipkartProducts = [];
