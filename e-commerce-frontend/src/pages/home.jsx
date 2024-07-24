@@ -61,13 +61,13 @@ const Home = () => {
   const [product, setProduct] = useState([]);
 
   // console.log(window.path)
-  const getproduct = async (req, res) => {
+  const getproduct = async () => {
     const fetchproduct = await fetch(`${window.path}/new-release`, {
       method: "get",
     });
     const resp = await fetchproduct.json();
     if (resp.status == 1) {
-      setProduct(resp.res);
+      setProduct(resp.result);
     } else {
       setProduct([]);
     }
@@ -80,7 +80,9 @@ const Home = () => {
     });
     const resp = await fetchCat.json();
     if (resp.status == 1) {
-      setPopularCategory(resp.res);
+      setPopularCategory(resp.result);
+    }else{
+      console.error('No data found:', resp.message);
     }
   };
   useEffect(() => {
@@ -341,25 +343,7 @@ const Home = () => {
                           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {e.description}
                           </p>
-                          {/* <a
-          href="#"
-          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Read more
-          <svg
-            aria-hidden="true"
-            className="w-4 h-4 ml-2 -mr-1"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            ></path>
-          </svg>
-        </a> */}
+           
                         </div>
                         <div className="w-full rounded-b-xl bg-zinc-200 flex justify-between px-3 items-center">
                           <img
@@ -596,26 +580,42 @@ const Home = () => {
             </div>
           </div>
 
+
+
+
           <div className="bg-white pt-24 -pb-1rem sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <h1 className="text-center text-2xl font-semibold leading-8 text-gray-900">
                 Popular Brands
               </h1>
 
-              <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4 tab:max-w-none tab:grid-cols-3  border rounded-lg p-9">
-                {popularCategory != null &&
-                  popularCategory["Popular Categories"].map((e) => (
-                    <>
-                      <div
-                        className="grid cursor-pointer"
-                        onClick={() => navigate(`${e.url.slice(19)}`)}
-                      >
-                        <div className="bg-none  text-5xl font-bold text-center p-6 m-4 border rounded-lg flex justify-center  ">
-                          <img src={e.image} className="hover:scale-125" />
+              <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4 tab:max-w-none tab:grid-cols-3 border rounded-lg p-9">
+                {popularCategory &&
+                  Object.keys(popularCategory).map((category, catIndex) => (
+                    <div key={catIndex} className="mb-8">
+                    
+                      <h2 className="text-2xl font-bold text-center mb-4">
+                        {category}
+                      </h2>
+                      {popularCategory[category].map((e, index) => (
+                        <div
+                          key={index}
+                          className="grid cursor-pointer"
+                          onClick={() => navigate(e.url)}
+                        >
+                          <div className="bg-none text-5xl font-bold text-center p-6 m-4 border rounded-lg flex justify-center">
+                            <img
+                              src={e.image}
+                              className="hover:scale-125"
+                              alt={e.title}
+                            />
+                          </div>
+                          <p className="text-center hover:underline">
+                            {e.title}
+                          </p>
                         </div>
-                        <p className="text-center hover:underline">{e.title}</p>
-                      </div>
-                    </>
+                      ))}
+                    </div>
                   ))}
               </div>
             </div>

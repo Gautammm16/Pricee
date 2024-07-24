@@ -171,6 +171,8 @@ exports.getIndProduct = async (req, res) => {
 //     }
 // };
 
+
+
 exports.getPopularCat = async (req, res) => {
     try {
         const pricee = await getHTML("https://www.pricee.com/");
@@ -215,6 +217,8 @@ exports.getPopularCat = async (req, res) => {
         res.status(500).json({ status: 0, message: "Internal Server Error" });
     }
 };
+
+
 
 exports.getCat = async(req,res) =>{
           const cat =   await  product_category.aggregate([
