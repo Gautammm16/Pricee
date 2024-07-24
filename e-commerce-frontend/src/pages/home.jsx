@@ -137,6 +137,7 @@ const Home = () => {
     <>
       {product != null ? (
         <>
+        console.log(product);
           <div className="w-full flex justify-center">
             <div className="container">
               <div className="absolute right-52 top-10   rounded-full ">
@@ -309,11 +310,11 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="mt-10">
+              <div className="mt-14">
                 <h1 className="text-xl mb-4 ml-7 font-semibold">
                   Flipkart Today's Deal
                 </h1>
-                {Array.isArray(product) && product.length > 0 ? (
+                {product != null ? (
                   <Carousel className="" responsive={responsive}>
                     {product.map((e, index) => (
                       <div
