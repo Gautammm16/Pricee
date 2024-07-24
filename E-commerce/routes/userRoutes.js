@@ -58,7 +58,6 @@ router.post("/register",form,userController.registerUser)
 router.get("/getcategories",form,ProductController.getCat)
 router.get("/getsingleproduct/:url",ProductController.getSingleProduct)
 router.get("/getoursingleproduct/:url",ProductController.getOurSingleProduct)
-
 router.post("/addcart",form,userAuth,userController.addCart)
 router.post("/getcart",form,userAuth,userController.addCart)
 router.post("/getcartforlocalstorage",form,userController.getCartForLocatStorage)
