@@ -56,7 +56,7 @@ exports.getpopularproduct = async (req, res) => {
             $('div._pdwg').each((index, element) => {
                 const product = {};
                 
-                product.image = $(element).find('._thmb img').attr('src');
+                product.image = $(element).find('._thmb img').attr('src') || 'default-image-url';
                 // console.log(product.image);
                 product.name = $(element).find('._pdscn ._hd._lc').text().trim() || 'No Name';
                 product.rating = $(element).find('._prate .good').text().trim() || 'No Rating';
