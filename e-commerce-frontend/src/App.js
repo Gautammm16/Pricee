@@ -43,16 +43,16 @@ function App() {
     <Route path="/singleproduct/:id" element={<SignleProduct  isopen={isopen} setisopen = {setisopen} />} />
     <Route path="/oursingleproduct/:id" element={<OurSignleProduct/>} />
     <Route path="/error" element={<Error/>} />
-    <Route path="/item" element={<Item/>} />
-    <Route path="/Ff" element={<Ff/>} />
+    {/* <Route path="/item" element={<Item/>} /> */}
+    {/* <Route path="/Ff" element={<Ff/>} /> */}
     <Route path="/auth/fgpass" element={<Fgpass/>} />
     <Route path="/adminlogin" element={<Adminlogin/>} />
     <Route path="/billing" element={<Billing/>} />
    <Route  exact path="/auth/signin" element={<Signin/>} />
     <Route exact path="/auth/signup" element={<Signup/>} />
-    <Route exact path="/timeline" element={<Timeline/>} />
+    {/* <Route exact path="/timeline" element={<Timeline/>} /> */}
     <Route exact path="/:cat?/:subcat" element={<Products isopen={isopen} setisopen = {setisopen} />} />
-    <Route exact path="/privacy" element={<Privacy isopen={isopen} setisopen = {setisopen} />} />
+    {/* <Route exact path="/privacy" element={<Privacy isopen={isopen} setisopen = {setisopen} />} /> */}
     <Route exact path="/searchproduct/:q" element={<SearchProduct isopen={isopen} setisopen = {setisopen} />} />
    </Routes>
    {

@@ -60,7 +60,6 @@ const Home = () => {
 
   const [product, setProduct] = useState([]);
 
-  // console.log(window.path)
   const getproduct = async () => {
     const fetchproduct = await fetch(`${window.path}/new-release`, {
       method: "get",
@@ -552,7 +551,7 @@ const Home = () => {
           <div className="bg-white pt-24 -pb-1rem sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <h1 className="text-center text-2xl font-semibold leading-8 text-gray-900">
-                Popular Brands
+                Popular Categories
               </h1>
 
               <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4 tab:max-w-none tab:grid-cols-3 border rounded-lg p-9">
