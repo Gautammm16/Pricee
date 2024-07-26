@@ -88,7 +88,8 @@ exports.getpopularproduct = async (req, res) => {
         if (flipkartHTML) {
             const $ = cheerio.load(flipkartHTML);
 
-            $('div._slideX.slazy > div._pdwg').each((index, element) => {
+            // $('div._slideX.slazy > div._pdwg').each((index, element) => {
+            $('div._pdwg').each((index, element) => {
                 const product = {};
                 
                 product.image = $(element).find('._thmb img').attr('data-original') || $(element).find('._thmb img').attr('src') || 'default-image-url';
@@ -117,6 +118,8 @@ exports.getpopularproduct = async (req, res) => {
     }
 };
 
+
+
 exports.getIndProduct = async (req, res) => {
     try {
         const product = await Product.find({ _id: req.params.id });
@@ -130,46 +133,6 @@ exports.getIndProduct = async (req, res) => {
         res.status(500).json({ status: 0, message: "Internal Server Error" });
     }
 };
-
-// exports.getPopularCat = async (req, res) => {
-//     try {
-//         const pricee = await getHTML("https://www.pricee.com/");
-//         var Cateogry = {};
-//         if (pricee) {
-//             let $ = cheerio.load(pricee);
-//             $('_ctlcb').each((_idx, el) => {
-//                 const shelf = $(el);
-//                 const MainTitle = shelf.find("_ctlcn _lc").text().trim();
-//                 const newele = $(shelf.find("._ctlwp ._ctlcb"));
-//                 const singleCateogry = [];
-//                 newele.each((_idxx, elmnt) => {
-//                     const elm = $(elmnt);
-//                     const url = elm.find('a').attr('href');
-//                     const image = elm.find('a .thumb img').attr('src');
-//                     const title = elm.find('a ._ctlcn').text();
-                    
-//                     singleCateogry.push({
-//                         url,
-//                         image,
-//                         title
-//                     });
-//                 });
-//                 Object.assign(Cateogry, { [MainTitle]: singleCateogry });
-//             });
-
-//             if (Object.keys(Cateogry).length > 0) {
-//                 res.json({ status: 1, message: "Data Found", result: Cateogry });
-//             } else {
-//                 res.json({ status: 0, message: "Data Not Found" });
-//             }
-//         } else {
-//             res.json({ status: 0, message: "Data Not Found" });
-//         }
-//     } catch (error) {
-//         console.error('Error in getPopularCat:', error.message);
-//         res.status(500).json({ status: 0, message: "Internal Server Error" });
-//     }
-// };
 
 
 
