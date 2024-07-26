@@ -81,8 +81,8 @@ const Home = () => {
     const resp = await fetchCat.json();
     if (resp.status == 1) {
       setPopularCategory(resp.result);
-    }else{
-      console.error('No data found:', resp.message);
+    } else {
+      console.error("No data found:", resp.message);
     }
   };
   useEffect(() => {
@@ -226,7 +226,6 @@ const Home = () => {
                     Search
                   </label>
                   <div className="relative">
-                    
                     <input
                       type="search"
                       id="search"
@@ -295,9 +294,7 @@ const Home = () => {
                 </div>
               </div>
 
-
               {/* Flipkart Today's Deal */}
-              
 
               <div className="mt-14">
                 <h1 className="text-xl mb-4 ml-7 font-semibold">
@@ -308,7 +305,6 @@ const Home = () => {
                     {product.map((e, index) => (
                       <div
                         key={index}
-                        
                         className="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mr-6 ml-12"
                       >
                         <div className="flex justify-center">
@@ -332,7 +328,6 @@ const Home = () => {
                           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {e.rating}
                           </p>
-           
                         </div>
                         <div className="w-full rounded-b-xl bg-zinc-200 flex justify-between px-3 items-center">
                           <img
@@ -340,9 +335,10 @@ const Home = () => {
                             src={Flipkart}
                             alt="Flipkart"
                           />
-                          <h1>{e.price }
+                          <h1>
+                            {e.price}
                             <span className="text-emerald-600 font-sans">
-                              { e.discount }
+                              {e.discount}
                             </span>
                           </h1>
                           <button
@@ -362,20 +358,16 @@ const Home = () => {
                 )}
               </div>
 
-
-
-              
               <div className="mt-14">
                 <h1 className="text-xl mb-4 ml-7  font-semibold">
                   Flipkart Popular Products
                 </h1>
-                
+
                 {product != null ? (
                   <Carousel className="" responsive={responsive}>
                     {product.map((e, index) => (
                       <div
                         key={index}
-                        
                         className="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mr-6 ml-12"
                       >
                         <div className="flex justify-center">
@@ -399,7 +391,6 @@ const Home = () => {
                           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {e.rating}
                           </p>
-           
                         </div>
                         <div className="w-full rounded-b-xl bg-zinc-200 flex justify-between px-3 items-center">
                           <img
@@ -407,9 +398,10 @@ const Home = () => {
                             src={Flipkart}
                             alt="Flipkart"
                           />
-                          <h1>{e.price }
+                          <h1>
+                            {e.price}
                             <span className="text-emerald-600 font-sans">
-                              { e.discount }
+                              {e.discount}
                             </span>
                           </h1>
                           <button
@@ -557,9 +549,6 @@ const Home = () => {
             </div>
           </div>
 
-
-
-
           <div className="bg-white pt-24 -pb-1rem sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <h1 className="text-center text-2xl font-semibold leading-8 text-gray-900">
@@ -567,31 +556,35 @@ const Home = () => {
               </h1>
 
               <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4 tab:max-w-none tab:grid-cols-3 border rounded-lg p-9">
+           
+
                 {popularCategory &&
                   Object.keys(popularCategory).map((category, catIndex) => (
                     <div key={catIndex} className="mb-8">
-                    
                       <h2 className="text-2xl font-bold text-center mb-4">
                         {category}
                       </h2>
-                      {popularCategory[category].map((e, index) => (
-                        <div
-                          key={index}
-                          className="grid cursor-pointer"
-                          onClick={() => navigate(e.url)}
-                        >
-                          <div className="bg-none text-5xl font-bold text-center p-6 m-4 border rounded-lg flex justify-center">
-                            <img
-                              src={e.image}
-                              className="hover:scale-125"
-                              alt={e.title}
-                            />
+                      {popularCategory[category].map((e, index) => {
+                        const urlPath = new URL(e.url).pathname;
+                        return (
+                          <div
+                            key={index}
+                            className="grid cursor-pointer"
+                            onClick={() => navigate(urlPath)}
+                          >
+                            <div className="bg-none text-5xl font-bold text-center p-6 m-4 border rounded-lg flex justify-center">
+                              <img
+                                src={e.image}
+                                className="hover:scale-125"
+                                alt={e.title}
+                              />
+                            </div>
+                            <p className="text-center hover:underline">
+                              {e.title}
+                            </p>
                           </div>
-                          <p className="text-center hover:underline">
-                            {e.title}
-                          </p>
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   ))}
               </div>

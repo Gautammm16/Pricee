@@ -44,42 +44,6 @@ async function getAmazonModel(html) {
     return span.html();
 }
 
-// exports.getproduct = async (req, res) => {
-//     try {
-//         const flipkart = await getHTML("https://www.flipkart.com/");
-//         var flipkartProducts = [];
-//         if (flipkart) {
-//             let $ = cheerio.load(flipkart);
-//             $('._3YgSsQ').each((_idx, el) => {
-//                 const shelf = $(el);
-//                 const url = `http://flipkart.com${shelf.find('._3YgSsQ div a ').attr('href')}`;
-//                 const image = shelf.find('a ._10pg75 div img').attr('src');
-//                 const title = shelf.find('a ._3LU4EM').text();
-//                 const offer = shelf.find('a ._2tDhp2').text();
-//                 const description = shelf.find('a ._3khuHA').text();
-                
-//                 flipkartProducts.push({
-//                     url,
-//                     image,
-//                     title,
-//                     offer,
-//                     description
-//                 });
-//             });
-//         }
-
-//         if (flipkartProducts.length > 0) {
-//             console.log(flipkartProducts);
-//             res.json({ status: 1, message: "Product Found Successfully", result: flipkartProducts });
-//         } else {
-//             res.json({ status: 0, message: "No Data Found" });
-//         }
-//     } catch (error) {
-//         console.error('Error in getproduct:', error.message);
-//         res.status(500).json({ status: 0, message: "Internal Server Error" });
-//     }
-// };
-
 exports.getpopularproduct = async (req, res) => {
     try {
         const flipkartHTML = await getHTML("https://pricee.com/");
@@ -92,7 +56,8 @@ exports.getpopularproduct = async (req, res) => {
             $('div._pdwg').each((index, element) => {
                 const product = {};
                 
-                product.image = $(element).find('._thmb img').attr('data-original') || $(element).find('._thmb img').attr('src') || 'default-image-url';
+                product.image = $(element).find('._thmb img').attr('src');
+                // console.log(product.image);
                 product.name = $(element).find('._pdscn ._hd._lc').text().trim() || 'No Name';
                 product.rating = $(element).find('._prate .good').text().trim() || 'No Rating';
                 product.price = $(element).find('._prc span').first().text().trim() || 'No Price';
@@ -100,6 +65,7 @@ exports.getpopularproduct = async (req, res) => {
                 product.link = $(element).find('a').attr('href') || '#';
 
                 flipkartProducts.push(product);
+                // console.log(product.image);
                 console.log(flipkartProducts);
             });
         }
@@ -264,7 +230,7 @@ exports.getCat = async(req,res) =>{
 exports.getProduct = async(req,res) =>{
 
 const product = await getHTML(`https://pricee.com/${req.params.cat}${req.params.subcat ? `/${req.params.subcat}` : '' }?sort=price&order=asc&is_ajax=2&v=1&size=30&page=${req.params.page}`)
-// console.log(req.params.cat);
+
  const subcategory = req.params.subcat ? req.params.subcat.split("-products")[0]   : req.params.cat.split("-products")[0]
 const findingSubCat = await product_sub_category.find({name : subcategory.replace("-"," ")})
 var ourProduct = []
