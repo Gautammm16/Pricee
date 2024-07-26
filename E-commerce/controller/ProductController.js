@@ -99,7 +99,6 @@ exports.getpopularproduct = async (req, res) => {
                 product.discount = $(element).find('._ofrtxt').text().trim() || 'No Discount';
                 product.link = $(element).find('a').attr('href') || '#';
 
-                
                 flipkartProducts.push(product);
                 console.log(flipkartProducts);
             });

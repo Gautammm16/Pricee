@@ -66,8 +66,8 @@ const Home = () => {
       method: "get",
     });
     const resp = await fetchproduct.json();
-    if (resp.status == 1) {
-      setProduct(resp);
+    if (resp.status == "success") {
+      setProduct(resp.data);
     } else {
       setProduct([]);
     }
@@ -321,16 +321,16 @@ const Home = () => {
                         </div>
                         <div className="p-5">
                           <a
-                            href={e.url}
+                            href={e.link}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                              {e.title}
+                              {e.name}
                             </h5>
                           </a>
                           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            {e.description}
+                            {e.rating}
                           </p>
            
                         </div>
@@ -340,9 +340,9 @@ const Home = () => {
                             src={Flipkart}
                             alt="Flipkart"
                           />
-                          <h1>
+                          <h1>{e.price }
                             <span className="text-emerald-600 font-sans">
-                              ₹{e.offer}
+                              { e.discount }
                             </span>
                           </h1>
                           <button
@@ -371,12 +371,11 @@ const Home = () => {
                 </h1>
                 
                 {product != null ? (
-                  console.log(product),
                   <Carousel className="" responsive={responsive}>
-                  
                     {product.map((e, index) => (
                       <div
                         key={index}
+                        
                         className="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mr-6 ml-12"
                       >
                         <div className="flex justify-center">
@@ -389,18 +388,18 @@ const Home = () => {
                         </div>
                         <div className="p-5">
                           <a
-                            href={e.url}
+                            href={e.link}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                              {e.title}
+                              {e.name}
                             </h5>
                           </a>
                           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            {e.description}
+                            {e.rating}
                           </p>
-               
+           
                         </div>
                         <div className="w-full rounded-b-xl bg-zinc-200 flex justify-between px-3 items-center">
                           <img
@@ -408,9 +407,9 @@ const Home = () => {
                             src={Flipkart}
                             alt="Flipkart"
                           />
-                          <h1>
+                          <h1>{e.price }
                             <span className="text-emerald-600 font-sans">
-                              ₹{e.offer}
+                              { e.discount }
                             </span>
                           </h1>
                           <button
